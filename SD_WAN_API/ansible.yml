@@ -1,6 +1,6 @@
 ---
 - name: cau hinh switch_1
-  hosts: sw_HCM
+  hosts: switch-01
   gather_facts: False
   tasks:
     - name: show ip

@@ -5,8 +5,8 @@
   tasks:
     - name: show ip
       ios_command:
-        Commands:
-          - sh vlan br
+        commands:
+          - sh vlan
       register: Output
 
     - debug: var=Output.stdout_lines
